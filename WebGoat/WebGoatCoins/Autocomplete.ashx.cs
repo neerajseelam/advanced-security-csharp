@@ -35,7 +35,7 @@ namespace OWASP.WebGoat.NET.WebGoatCoins
             else
             {
                 context.Response.ContentType = "text/plain";
-                context.Response.Write("");
+                context.Response.Write("This fix for just the demonstration purposes to get rid of the cross site scripting vulnerabiltiy.");
             
             }
         }
